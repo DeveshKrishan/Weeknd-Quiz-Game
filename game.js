@@ -12,7 +12,7 @@ let availableQuesions = [];
 let questions = [
 {
     question: "What is The Weeknd's real name?",
-    choice1: "Navraj Singh Goraya>",
+    choice1: "Navraj Singh Goraya",
     choice2: "Abel Makkonen Tesfaye",
     choice3: "Aubrey Drake Graham",
     choice4: "Jacques Bermon Webster II,",
@@ -28,6 +28,24 @@ let questions = [
     answer: 2
 },
 {
+    question:
+    "Which albumn came out in 2016 by The Weeknd?",
+    choice1: "Dawn FM",
+    choice2: "After Hours",
+    choice3: "Beauty Behind The Madness",
+    choice4: "Starboy",
+    answer: 4
+},
+{
+    question:
+    "What 3 mixtapes is Trilogy composed of?",
+    choice1: "Darkness, Material Girl, My Dear Melancholy",
+    choice2: "Try Me, Too Late, Wanderlust",
+    choice3: "Echoes of Silence, Thursday, House of Balloons",
+    choice4: "Angel, Reminder, Die For You",
+    answer: 3
+},
+{
     question: " What is The Weeknd's most famous song?",
     choice1: "Blinding Lights",
     choice2: "The Hills",
@@ -35,10 +53,12 @@ let questions = [
     choice4: "Sacrifice",
     answer: 1
 }
+
 ];
 
+
 const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 3;
+const MAX_QUESTIONS = 5;
 
 startGame = () => {
 questionCounter = 0;
