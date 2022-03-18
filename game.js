@@ -29,7 +29,7 @@ let questions = [
 },
 {
     question:
-    "Which albumn came out in 2016 by The Weeknd?",
+    "Which album came out in 2016 by The Weeknd?",
     choice1: "Dawn FM",
     choice2: "After Hours",
     choice3: "Beauty Behind The Madness",
@@ -44,6 +44,15 @@ let questions = [
     choice3: "Echoes of Silence, Thursday, House of Balloons",
     choice4: "Angel, Reminder, Die For You",
     answer: 3
+},
+{
+    question:
+    "Who is the guest narrator of Dawn FM?",
+    choice1: "Morgan Freeman",
+    choice2: "Jim Carrey",
+    choice3: "Aubrey Graham",
+    choice4: "Kanye West",
+    answer: 2
 },
 {
     question: " What is The Weeknd's most famous song?",
